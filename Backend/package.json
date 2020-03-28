@@ -5,6 +5,7 @@
   "dependencies": {
     "aws-sdk": "latest",
     "body-parser": "latest",
+    "cors": "^2.8.5",
     "ejs": "latest",
     "express": "^4.17.1",
     "knex": "^0.20.13",

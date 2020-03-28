@@ -17,5 +17,6 @@ exports.up = async (knex) => {
     })
   };
   ```
-  
+  > Em sistemas onde temos autenticação de usuários, não enviamos o id do usuário no corpo da requisição, mas sim no cabeçalho, toda a autenticação será enviada via request.headers.
+
   
